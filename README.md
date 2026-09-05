@@ -27,16 +27,25 @@ Stop the Server: Stop the Spring Boot server once testing is complete.
 
 ## Program 
 
-simple-web-server/
+### Folder Structure
+
+```
+simple_web_server/
+│
 ├── src/
 │   └── main/
 │       ├── java/
-│       │   └── com.example.demo/
-│       │       ├── DemoApplication.java
-│       │       └── HelloController.java
+│       │   └── com/
+│       │       └── example/
+│       │           └── simple_web_server/
+│       │               ├── SimpleWebServerApplication.java
+│       │               └── HelloController.java
+│       │
 │       └── resources/
 │           └── application.properties
-├── pom.xml
+│
+└── pom.xml
+```
 
 ### Pom.xml
 ```
